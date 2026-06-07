@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практичні завдання</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <section class="task-block">
+        <h2>Завдання А: Картка-візитка</h2>
+        <div class="card-box">
+            <img src="https://picsum.photos/100/100?random=20" alt="Аватар" class="card-avatar">
+            <h3>Олексій</h3>
+            <p>Юний веб-розробник</p>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="task-block">
+        <h2>Завдання В: Галерея</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="https://picsum.photos/200/150?random=1" alt="Фото 1">
+            </div>
+            <div class="gallery-item">
+                <img src="https://picsum.photos/200/150?random=2" alt="Фото 2">
+            </div>
+            <div class="gallery-item">
+                <img src="https://picsum.photos/200/150?random=3" alt="Фото 3">
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="task-block">
+        <h2>Завдання С: Карточка портфоліо</h2>
+        <div class="portfolio">
+            <div class="overlay">
+                <h3>Мій Проєкт</h3>
+                <p>Класний сайт на HTML/CSS</p>
+                <button class="view-btn">Переглянути</button>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="task-block">
+        <h2>Завдання D: Модальне вікно</h2>
+
+        <button data-modal-open class="open-btn">Переглянути товар</button>
+
+        <div data-modal class="backdrop is-hidden">
+            <div class="modal">
+                <button data-modal-close class="modal-close">&times;</button>
+                <img src="https://picsum.photos/150/150?random=10" alt="Товар" class="modal-img">
+                <h3>Крутий Світшот</h3>
+                <p class="price">990 грн</p>
+                <p class="desc">Зручний теплий одяг для кодингу та прогулянок.</p>
+                <button class="buy-btn" type="submit">Додати в кошик</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/modal.js"></script>
+</body>
+
+</html>
